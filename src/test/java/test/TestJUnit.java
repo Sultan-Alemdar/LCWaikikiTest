@@ -19,9 +19,8 @@ import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import static java.lang.Double.parseDouble;
-import static org.junit.Assert.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
+
 @TestMethodOrder(OrderAnnotation.class)
 public class TestJUnit {
     final static Logger logger = Logger.getLogger(TestJUnit.class);
